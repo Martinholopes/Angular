@@ -1,0 +1,23 @@
+<h1>{{title}}</h1>
+
+<div style = "text-align: center">
+
+    <img width="200" alt="Angular Logo" src="https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif">
+
+</div>
+
+<nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <br>
+    <a routerLink="/heroes">Heroes</a>
+    <a routerLink="/imagens">Home</a>
+    <br>
+    <a routerLink="/another">albums</a>
+</nav>
+
+<app-messages></app-messages>
+<router-outlet></router-outlet>
+
+<div style="background-image:url('https://media.giphy.com/media/2rqEdFfkMzXmo/giphy.gif');">
+    <router-outlet></router-outlet>
+</div>
